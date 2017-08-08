@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle gpp-v2",
+        "command": "gpp-v2:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "gpp-v2",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "gpp-v2:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
